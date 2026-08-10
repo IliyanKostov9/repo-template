@@ -18,7 +18,7 @@ jobs:
         with:
           name: iliyankostov9-portfolio
           authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
-      - uses: DeterminateSystems/flake-checker-action@3164002371bc90729c68af0e24d5aacf20d7c9f6
+      - uses: DeterminateSystems/flake-checker-action@de924abd783455e8429c858962b9e43062d19da1
 
   lock-updater:
     permissions:
